@@ -1,0 +1,6 @@
+//My name is zareen khan 
+//date:10/8/2022
+//This program define my favourite number and using varibales
+var fav_num=39;
+var msg = "My favorite number is " + str(fav_num)
+console.log(msg);
