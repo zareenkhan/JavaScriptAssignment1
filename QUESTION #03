@@ -1,0 +1,3 @@
+var name="ZareenKhan";
+console.log("lowercase:",name.toLowerCase());
+console.log("uppercase:",name.toUpperCase());
