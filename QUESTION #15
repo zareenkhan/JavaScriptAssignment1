@@ -1,0 +1,9 @@
+var guest_list=["ahmed","umer","abbas"];
+console.log(guest_list)
+var cannot_make_guest=guest_list[1]
+console.log( cannot_make_guest=guest_list[1]+" Cant't make the guest");
+guest_list[1]="naeem";
+console.log("modify list:",guest_list)
+console.log(guest_list[0]+" come to dinner")
+console.log(guest_list[1]+" come to dinner")
+console.log(guest_list[2]+" come to dinner")
