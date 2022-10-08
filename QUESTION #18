@@ -1,0 +1,11 @@
+var location=["Hunza Valley", "Swat Valley","Naran KaghanShogranValley", "Skardu Valley","Chitral Kalash","Fairy Meadows","Neelum Valley"]
+console.log(location);//original array print
+//orderlist in this step
+console.log(location.sort());//print alpha order list 
+console.log(location)//print original list
+console.log(location.reverse());//print reverse order list
+console.log(location)//print original list
+console.log(location.reverse());
+console.log(location.reverse());
+console.log(location.sort());
+console.log(location.reverse());
