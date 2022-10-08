@@ -1,0 +1,8 @@
+QUES#06
+/*My name is zareen khan 
+date:10/8/2022
+In this program i am remove white spaces in the string*/
+var name="  Zareen Khan  ";
+console.log("with whitespaces:",name);
+var without_whitespace=name.replace(/ /g,"");
+console.log("withou white spaces:",without_whitespace);
