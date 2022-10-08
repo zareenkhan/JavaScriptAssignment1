@@ -1,0 +1,15 @@
+QUESTION #19 INVITING NO OF PEOPLES
+
+var guest_list=["ahmed","umer","abbas"];
+var count=0;
+console.log(guest_list)
+var cannot_make_guest=guest_list[1]
+console.log( cannot_make_guest=guest_list[1]+" Cant't make the guest");
+guest_list[1]="naeem";
+console.log("modify list:",guest_list)
+console.log(guest_list[0]+" come to dinner")
+console.log(guest_list[1]+" come to dinner")
+console.log(guest_list[2]+" come to dinner")
+for (var i=0;i<guest_list.length;i++){
+  count=count+i;
+}console.log("Inviting number of peoples is:"+count);
