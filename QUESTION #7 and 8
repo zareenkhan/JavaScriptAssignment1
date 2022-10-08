@@ -1,0 +1,5 @@
+QUES#7 and 8
+console.log("addition:",3+5);
+console.log("substraction:",11-3);
+console.log("multiplication",2*4);
+console.log("division:",40/5);
