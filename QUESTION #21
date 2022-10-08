@@ -1,0 +1,8 @@
+QUESTION #21
+They think of something you could store in a JavaScript Object. Write a program that creates Objects containing these items.
+ANSWER:
+let obj={cities:"karachi",language:"english",country:"pakistan"}
+    
+    console.log(obj.cities)
+    console.log(obj.language)
+    console.log(obj.country)
