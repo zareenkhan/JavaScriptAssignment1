@@ -1,0 +1,36 @@
+var guest_list=["ahmed","umer","abbas"];
+console.log(guest_list)//print the previous list
+var cannot_make_guest=guest_list[1] //who can't make the guest
+console.log( cannot_make_guest=guest_list[1]+" Cant't make the guest");
+guest_list[1]="naeem";//push the element index=1 
+console.log("modify list:",guest_list)//modify the list
+console.log(guest_list[0]+" come to dinner")
+console.log(guest_list[1]+" come to dinner")
+console.log(guest_list[2]+" come to dinner")
+console.log("found the bigger  table to the guest")
+guest_list.unshift("Zareenkhan");//add the beginning of the array
+console.log(guest_list);
+guest_list.splice(2,0,"hadeeqa");//add beginning of the array
+console.log("add the guest in the biginning:"+guest_list);//print the array after add beg element
+guest_list.push("mariyam");//add end of the array
+console.log(guest_list);
+console.log(guest_list[0]+" come to dinner")//inivitation for dinner each person
+console.log(guest_list[1]+" come to dinner")//inivitation for dinner each person
+console.log(guest_list[2]+" come to dinner")//inivitation for dinner each person
+console.log(guest_list[3]+" come to dinner")//inivitation for dinner each person
+console.log(guest_list[4]+" come to dinner")//inivitation for dinner each person
+console.log(guest_list[5]+" come to dinner")//inivitation for dinner each person
+console.log("only two people inviting for dinner");//sorry for can't invite
+var G1=guest_list.pop()//remove guest from array
+console.log(" sorry "+G1+" for can’t invite them to dinner");//sorry for can't invite
+var G2=guest_list.pop()//remove guest from array
+console.log(" sorry "+G2+" for can’t invite them to dinner");//sorry for can't invite
+var G3=guest_list.pop()//remove guest from array
+console.log(" sorry "+G3+" for can’t invite them to dinner");//sorry for can't invite
+var G4=guest_list.pop()//remove guest from array
+console.log(" sorry "+G4+" for can’t invite them to dinner");//sorry for can't invite
+console.log(guest_list[0]+" you are still inviting")//they are still inviting
+console.log(guest_list[1]+" you are still inviting")//they are still inviting
+guest_list.pop()//last two  elements are also be removed
+guest_list.pop()//last two  elements are also be removed
+console.log(guest_list);//print Empty list
