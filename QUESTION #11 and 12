@@ -1,0 +1,5 @@
+var names=["Irza","Mahnoor","Arisha","Amna"];
+console.log("AssalamuAlaikum",names[0])
+console.log("AssalamuAlaikum",names[1])
+console.log("AssalamuAlaikum",names[2])
+console.log("AssalamuAlaikum",names[3])
