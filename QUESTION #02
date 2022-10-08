@@ -1,0 +1,3 @@
+QUESTION #02
+var name="Zareen khan";
+ console.log("Hello "+name+", would you like to learn some Python today?")
