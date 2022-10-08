@@ -1,0 +1,8 @@
+/* Question#13
+var cars=["Toyota Corolla","Meruti","Honda Civic"];
+var statement1="I have"+cars[0];
+var statement2="I like"+cars[2];
+var statement3="I would like to own a "+cars[1];
+console.log(statement1)
+console.log(statement2)
+console.log(statement3)
