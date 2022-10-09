@@ -1,0 +1,43 @@
+QUESTION #23
+Conditional Tests: Write a series of conditional tests. Print a statement
+describing each test and your prediction for the results of each test. Your code should look something like this:
+let car = 'subaru';
+console.log("Is car == 'subaru'? I predict True.")
+console.log(car == 'subaru')
+• Look closely at your results, and make sure you understand why each line evaluates to True or False.
+• Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False
+
+let car = 'meruti';
+console.log("Is car == 'meruti'? I predict True.")
+console.log(car == 'meruti')
+
+let name = 'zareen ';
+console.log("Is name != 'Zareen'? I predict true.")
+console.log(name !='Zareen')
+
+console.log("45<88888,? I predict true.")
+console.log(45<88888);
+
+let city = 'KARACHi';
+console.log("Is name.toLowerCase()== 'karachi',? I predict true.")
+console.log(city.toLowerCase()== 'karachi')
+
+console.log("4<5","I predict True");
+console.log(4<5);
+
+let name = 'zareen ';
+console.log("Is name == 'Zareen'? I predict false.")
+console.log(name == 'Zareen')
+
+let num = 67;
+console.log("Is num=== 'abc'? I predict false.")
+console.log(num ==='abc')
+
+console.log("6==5","I predict false");
+console.log(6==5);
+
+console.log("4==='4'","I predict false");
+console.log(4==='4');
+let num = 1000;
+console.log("Is num<= 76? I predict false.")
+console.log(num <=76)
