@@ -1,0 +1,29 @@
+QUESTION#24
+More Conditional Tests: You don’t have to limit the number of tests you create to 10. If you want to try more comparisons, write more tests. Have at least one True and one False result for each of the following:
+• Tests for equality and inequality with strings
+
+• Tests using the lower case function
+
+• Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to
+
+• Tests using "and" and "or" operators
+
+
+ANSWER:
+• Tests for equality and inequality with strings
+console.log('zareen'==='amber');//FALSE
+console.log('ali'=='ali');//TRUE
+
+
+• Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to
+console.log(45<88888)//True
+console.log(4889999<=66765);False
+console.log(488>=69995);False
+console.log(488>7);True
+• Tests using "and" and "or" operators
+console.log(true && false);//false
+console.log(true && true);//false
+console.log(true || false); //true
+console.log(false || false);//false
+
+
